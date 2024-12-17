@@ -1,5 +1,5 @@
 import { IconButton } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./Header.scss";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,7 +8,7 @@ import notificationIcon from "../../assets/icons/notificationIcon.png";
 import { StyledIcon, StyledIconButton } from "../../styles/styled";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/YT-white.png";
+import logo from "../../assets/images/ytlogo1.png";
 import miniLogo from "../../assets/images/YT_mini.png";
 import { toggleSideMenu } from "../../redux/actions/sideMenuAction";
 
